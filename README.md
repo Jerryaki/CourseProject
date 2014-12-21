@@ -10,10 +10,10 @@ This course project teaches students how to merge and manipulate multiple data s
 
 The submission for this assignment includes:
 
-*This README.md file.
-*A CodeBook.md file that explains the variables of the final "tidy.txt" data file and the methodology used to derive that file.
-*The tidy.txt file that is the final data output of this assignment.
-*The run_analysis.R script that contains the methodology to take the original data sets, merge and transform them into tidy.txt.
+- This README.md file.
+- A CodeBook.md file that explains the variables of the final "tidy.txt" data file and the methodology used to derive that file.
+- The tidy.txt file that is the final data output of this assignment.
+- The run_analysis.R script that contains the methodology to take the original data sets, merge and transform them into tidy.txt.
 
 ###Original README Content
 
