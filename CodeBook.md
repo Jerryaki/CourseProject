@@ -12,77 +12,77 @@ The original data set contained data for thirty subjects, six activities and 561
 ###Data Variables
 The final tidy.txt data set contains 68 variables:
 
-activity - 1 of 6 activities (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
-subject - subject IDs (1-30)
+- activity: 1 of 6 activities (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+- subject: subject IDs (1-30)
 
 The remaining 66 variables follow the nomenclature of variable + Mean or Standard Deviation + Axis (X, Y or Z):
 
--tBodyAccMeanX
--tBodyAccMeanY
--tBodyAccMeanZ
--tBodyAccStdX
--tBodyAccStdY
--tBodyAccStdZ
--tGravityAccMeanX
--tGravityAccMeanY
--tGravityAccMeanZ
--tGravityAccStdX
--tGravityAccStdY
--tGravityAccStdZ
--tBodyAccJerkMeanX
--tBodyAccJerkMeanY
--tBodyAccJerkMeanZ
--tBodyAccJerkStdX
--tBodyAccJerkStdY
--tBodyAccJerkStdZ
--tBodyGyroMeanX
--tBodyGyroMeanY
--tBodyGyroMeanZ
--tBodyGyroStdX
--tBodyGyroStdY
--tBodyGyroStdZ
--tBodyGyroJerkMeanX
--tBodyGyroJerkMeanY
--tBodyGyroJerkMeanZ
--tBodyGyroJerkStdX
--tBodyGyroJerkStdY
--tBodyGyroJerkStdZ
--tBodyAccMagMean
--tBodyAccMagStd
--tGravityAccMagMean
--tGravityAccMagStd
--tBodyAccJerkMagMean
--tBodyAccJerkMagStd
--tBodyGyroMagMean
--tBodyGyroMagStd
--tBodyGyroJerkMagMean
--tBodyGyroJerkMagStd
--fBodyAccMeanX
--fBodyAccMeanY
--fBodyAccMeanZ
--fBodyAccStdX
--fBodyAccStdY
--fBodyAccStdZ
--fBodyAccJerkMeanX
--fBodyAccJerkMeanY
--fBodyAccJerkMeanZ
--fBodyAccJerkStdX
--fBodyAccJerkStdY
--fBodyAccJerkStdZ
--fBodyGyroMeanX
--fBodyGyroMeanY
--fBodyGyroMeanZ
--fBodyGyroStdX
--fBodyGyroStdY
--fBodyGyroStdZ
--fBodyAccMagMean
--fBodyAccMagStd
--fBodyBodyAccJerkMagMean
--fBodyBodyAccJerkMagStd
--fBodyBodyGyroMagMean
--fBodyBodyGyroJerkMagMean
--fBodyBodyGyroMagStd
--fBodyBodyGyroJerkMagStd
+- tBodyAccMeanX
+- tBodyAccMeanY
+- tBodyAccMeanZ
+- tBodyAccStdX
+- tBodyAccStdY
+- tBodyAccStdZ
+- tGravityAccMeanX
+- tGravityAccMeanY
+- tGravityAccMeanZ
+- tGravityAccStdX
+- tGravityAccStdY
+- tGravityAccStdZ
+- tBodyAccJerkMeanX
+- tBodyAccJerkMeanY
+- tBodyAccJerkMeanZ
+- tBodyAccJerkStdX
+- tBodyAccJerkStdY
+- tBodyAccJerkStdZ
+- tBodyGyroMeanX
+- tBodyGyroMeanY
+- tBodyGyroMeanZ
+- tBodyGyroStdX
+- tBodyGyroStdY
+- tBodyGyroStdZ
+- tBodyGyroJerkMeanX
+- tBodyGyroJerkMeanY
+- tBodyGyroJerkMeanZ
+- tBodyGyroJerkStdX
+- tBodyGyroJerkStdY
+- tBodyGyroJerkStdZ
+- tBodyAccMagMean
+- tBodyAccMagStd
+- tGravityAccMagMean
+- tGravityAccMagStd
+- tBodyAccJerkMagMean
+- tBodyAccJerkMagStd
+- tBodyGyroMagMean
+- tBodyGyroMagStd
+- tBodyGyroJerkMagMean
+- tBodyGyroJerkMagStd
+- fBodyAccMeanX
+- fBodyAccMeanY
+- fBodyAccMeanZ
+- fBodyAccStdX
+- fBodyAccStdY
+- fBodyAccStdZ
+- fBodyAccJerkMeanX
+- fBodyAccJerkMeanY
+- fBodyAccJerkMeanZ
+- fBodyAccJerkStdX
+- fBodyAccJerkStdY
+- fBodyAccJerkStdZ
+- fBodyGyroMeanX
+- fBodyGyroMeanY
+- fBodyGyroMeanZ
+- fBodyGyroStdX
+- fBodyGyroStdY
+- fBodyGyroStdZ
+- fBodyAccMagMean
+- fBodyAccMagStd
+- fBodyBodyAccJerkMagMean
+- fBodyBodyAccJerkMagStd
+- fBodyBodyGyroMagMean
+- fBodyBodyGyroJerkMagMean
+- fBodyBodyGyroMagStd
+- fBodyBodyGyroJerkMagStd
 
 The data value for each of the 66 variables above represent the mean of that variable for each unique subject and activity combination.
 
