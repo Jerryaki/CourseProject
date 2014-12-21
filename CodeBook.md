@@ -3,17 +3,17 @@
 ###Description of Data
 The original data set contained data for thirty subjects, six activities and 561 variables collected via accelerometers (see README.md for more details on the original data set). The methodology required to turn those data sets into tidy.txt per the course assignment were to:
 
-1) Merge the training and the test sets to create one data set.
-2) Extract only the measurements on the mean and standard deviation for each measurement. 
-3) Use descriptive activity names to name the activities in the data set
-4) Appropriately label the data set with descriptive variable names.
-5) Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+Merge the training and the test sets to create one data set.
+Extract only the measurements on the mean and standard deviation for each measurement. 
+Use descriptive activity names to name the activities in the data set
+Appropriately label the data set with descriptive variable names.
+Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ###Data Variables
 The final tidy.txt data set contains 68 variables:
 
--activity - 1 of 6 activities (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
--subject - subject IDs (1-30)
+activity - 1 of 6 activities (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+subject - subject IDs (1-30)
 
 The remaining 66 variables follow the nomenclature of variable + Mean or Standard Deviation + Axis (X, Y or Z):
 
